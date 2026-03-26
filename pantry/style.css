@@ -65,6 +65,25 @@ header .subtitle {
   color: var(--green-mid);
 }
 
+/* ── Nav ── */
+
+nav {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  font-size: 9px;
+  color: var(--green-mid);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--green);
+  text-decoration: underline;
+}
+
 /* ── Section headings ── */
 
 h2 {
@@ -147,6 +166,7 @@ section {
   grid-row: 1;
   font-size: 11px;
   color: var(--dark);
+  text-transform: uppercase;
 }
 
 .party-member .level {
@@ -172,4 +192,53 @@ section {
   color: #8aaa8a;
   white-space: nowrap;
   text-align: right;
+}
+
+/* ── PC Box ── */
+
+.box-member {
+  border-color: var(--green-lite);
+  box-shadow: 3px 3px 0 #d0e8b0;
+  opacity: 0.8;
+}
+
+/* ── Postcards ── */
+
+.postcards-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.postcard {
+  background: var(--panel);
+  border: 3px solid var(--dark);
+  box-shadow: 3px 3px 0 var(--shadow);
+  padding: 0.75rem 1rem;
+}
+
+.postcard .place {
+  font-size: 9px;
+  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+}
+
+.postcard .place::before {
+  content: "📍 ";
+}
+
+.postcard .message {
+  font-size: 9px;
+  color: var(--dark);
+  line-height: 2;
+}
+
+.postcard.no-note .message {
+  color: #aaa;
+  font-style: italic;
 }

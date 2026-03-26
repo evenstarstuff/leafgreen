@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Postcards | Everything Stays{% endblock %}
+
+{% block content %}
+<section>
+  <h2>Postcards</h2>
+  <ul class="postcards-list">
+    {% for card in postcards %}
+    <li class="postcard {% if not card.note %}no-note{% endif %}">
+      <div class="place">{{ card.location }}</div>
+      <div class="message">
+        {% if card.note %}{{ card.note }}{% else %}...{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

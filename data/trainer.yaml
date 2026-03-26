@@ -1,26 +1,20 @@
 name: Jennie
-location: Viridian Forest
-badges: 0
+location: Route 3
+badges: 1
 pokedex: 9
 
 party:
   - nickname: Ryland
     species: Bulbasaur
-    level: 10
+    level: 14
     caught_level: null
     caught_location: null
     origin: starter
 
   - nickname: Ratatoskr
     species: Rattata
-    level: 8
+    level: 9
     caught_level: 4
-    caught_location: Route 1
-
-  - nickname: Tengu
-    species: Pidgey
-    level: 8
-    caught_level: 3
     caught_location: Route 1
 
   - nickname: Naledi
@@ -30,17 +24,31 @@ party:
     caught_location: Route 22
 
   - nickname: The Queen
-    species: Kakuna
-    level: 7
+    species: Beedrill
+    level: 10
     caught_level: 3
     caught_location: Viridian Forest
     caught_as: Weedle
 
   - nickname: Steadfast
-    species: Metapod
-    level: 6
+    species: Butterfree
+    level: 10
     caught_level: 5
     caught_location: Viridian Forest
+    caught_as: Metapod
+
+  - nickname: Maxwell
+    species: Pikachu
+    level: 11
+    caught_level: 5
+    caught_location: Viridian Forest
+
+box:
+  - nickname: Tengu
+    species: Pidgey
+    level: 8
+    caught_level: 3
+    caught_location: Route 1
 
   - nickname: John Acorn
     species: Caterpie
@@ -48,8 +56,14 @@ party:
     caught_level: 3
     caught_location: Viridian Forest
 
-  - nickname: Maxwell
-    species: Pikachu
-    level: 7
+  - nickname: Aurora
+    species: Jigglypuff
+    level: 5
     caught_level: 5
-    caught_location: Viridian Forest
+    caught_location: Route 3
+
+  - nickname: Sharpe
+    species: Spearow
+    level: 6
+    caught_level: 6
+    caught_location: Route 3

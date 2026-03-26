@@ -33,4 +33,28 @@
     {% endfor %}
   </ul>
 </section>
+
+{% if trainer.box %}
+<section class="box">
+  <h2>PC Box</h2>
+  <ul class="party-list">
+    {% for pokemon in trainer.box %}
+    <li class="party-member box-member">
+      <span class="nickname">{{ pokemon.nickname }}</span>
+      <span class="species">{{ pokemon.species }}</span>
+      <span class="level">Lv. {{ pokemon.level }}</span>
+      {% if pokemon.caught_location %}
+        <span class="origin">
+          caught{% if pokemon.caught_as %} as {{ pokemon.caught_as }}{% endif %}
+          at Lv. {{ pokemon.caught_level }}
+          in {{ pokemon.caught_location }}
+        </span>
+      {% else %}
+        <span class="origin">starter</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
 {% endblock %}

@@ -11,10 +11,14 @@
   </head>
   <body>
     <header>
-      <a href="/">
+      <a href="{{ calc_url('') }}">
         <h1>Everything Stays</h1>
         <p class="subtitle">Turning over an old, new leaf</p>
       </a>
+      <nav>
+        <a href="{{ calc_url('') }}">Home</a>
+        <a href="{{ calc_url('postcards/') }}">Postcards</a>
+      </nav>
     </header>
     <main>
       {% block content %}{% endblock %}

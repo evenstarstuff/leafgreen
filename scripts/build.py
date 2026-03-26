@@ -18,6 +18,7 @@ ryland = Ryland(output_dir=OUTPUT_DIR, template_dir=TEMPLATE_DIR, url_root=url_r
 ryland.clear_output()
 
 trainer = yaml.safe_load(open(DATA_DIR / "trainer.yaml"))
+postcards = yaml.safe_load(open(DATA_DIR / "postcards.yaml"))
 
 ## style
 
@@ -28,4 +29,10 @@ ryland.add_hash("style.css")
 
 ryland.render_template("home.html", "index.html", {
     "trainer": trainer,
+})
+
+## postcards page
+
+ryland.render_template("postcards.html", "postcards/index.html", {
+    "postcards": postcards,
 })
