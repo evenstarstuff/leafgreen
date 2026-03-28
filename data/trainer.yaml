@@ -1,7 +1,8 @@
 name: Jennie
 location: Route 3
 badges: 1
-pokedex: 9
+pokedex: 19
+caught: 13
 
 party:
   - nickname: Ryland
