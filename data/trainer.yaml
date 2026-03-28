@@ -7,6 +7,7 @@ party:
   - nickname: Ryland
     species: Bulbasaur
     level: 14
+    sprite: bulbasaur.png
     caught_level: null
     caught_location: null
     origin: starter
@@ -14,18 +15,21 @@ party:
   - nickname: Ratatoskr
     species: Rattata
     level: 9
+    sprite: rattata.png
     caught_level: 4
     caught_location: Route 1
 
   - nickname: Naledi
     species: Mankey
     level: 8
+    sprite: mankey.png
     caught_level: 3
     caught_location: Route 22
 
   - nickname: The Queen
     species: Beedrill
     level: 10
+    sprite: beedrill.png
     caught_level: 3
     caught_location: Viridian Forest
     caught_as: Weedle
@@ -33,6 +37,7 @@ party:
   - nickname: Steadfast
     species: Butterfree
     level: 10
+    sprite: butterfree.png
     caught_level: 5
     caught_location: Viridian Forest
     caught_as: Metapod
@@ -40,6 +45,7 @@ party:
   - nickname: Maxwell
     species: Pikachu
     level: 11
+    sprite: pikachu.png
     caught_level: 5
     caught_location: Viridian Forest
 
@@ -47,23 +53,27 @@ box:
   - nickname: Tengu
     species: Pidgey
     level: 8
+    sprite: pidgey.png
     caught_level: 3
     caught_location: Route 1
 
   - nickname: John Acorn
     species: Caterpie
     level: 3
+    sprite: caterpie.png
     caught_level: 3
     caught_location: Viridian Forest
 
   - nickname: Aurora
     species: Jigglypuff
     level: 5
+    sprite: jigglypuff.png
     caught_level: 5
     caught_location: Route 3
 
   - nickname: Sharpe
     species: Spearow
     level: 6
+    sprite: spearow.png
     caught_level: 6
     caught_location: Route 3

@@ -6,6 +6,9 @@ from pathlib import Path
 import yaml
 from ryland import Ryland
 
+import shutil
+from os import makedirs
+
 ROOT_DIR = Path(__file__).parent.parent
 OUTPUT_DIR = ROOT_DIR / "site"
 TEMPLATE_DIR = ROOT_DIR / "templates"
@@ -24,6 +27,13 @@ postcards = yaml.safe_load(open(DATA_DIR / "postcards.yaml"))
 
 ryland.copy_to_output(PANTRY_DIR / "style.css")
 ryland.add_hash("style.css")
+
+## sprites
+
+makedirs(OUTPUT_DIR / "sprites", exist_ok=True)
+
+for sprite in (ROOT_DIR / "sprites").glob("*.*"):
+    shutil.copy(sprite, OUTPUT_DIR / "sprites" / sprite.name)
 
 ## home page
 

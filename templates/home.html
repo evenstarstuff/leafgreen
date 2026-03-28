@@ -17,6 +17,9 @@
   <ul class="party-list">
     {% for pokemon in trainer.party %}
     <li class="party-member">
+      {% if pokemon.sprite %}
+      <img src="{{ calc_url('sprites/' + pokemon.sprite) }}" alt="{{ pokemon.species }}" class="sprite">
+      {% endif %}
       <span class="nickname">{{ pokemon.nickname }}</span>
       <span class="species">{{ pokemon.species }}</span>
       <span class="level">Lv. {{ pokemon.level }}</span>
@@ -40,6 +43,9 @@
   <ul class="party-list">
     {% for pokemon in trainer.box %}
     <li class="party-member box-member">
+      {% if pokemon.sprite %}
+      <img src="{{ calc_url('sprites/' + pokemon.sprite) }}" alt="{{ pokemon.species }}" class="sprite">
+      {% endif %}
       <span class="nickname">{{ pokemon.nickname }}</span>
       <span class="species">{{ pokemon.species }}</span>
       <span class="level">Lv. {{ pokemon.level }}</span>
