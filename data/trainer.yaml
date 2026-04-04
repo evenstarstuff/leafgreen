@@ -6,27 +6,49 @@ caught: 13
 
 party:
   - nickname: Ryland
-    species: Bulbasaur
-    level: 14
-    sprite: bulbasaur.png
+    species: Ivysaur
+    level: 16
+    sprite: ivysaur.png
     caught_level: null
     caught_location: null
     origin: starter
 
   - nickname: Ratatoskr
     species: Rattata
-    level: 9
+    level: 10
     sprite: rattata.png
     caught_level: 4
     caught_location: Route 1
 
-  - nickname: Naledi
-    species: Mankey
-    level: 8
-    sprite: mankey.png
+  - nickname: Kaiju
+    species: Magikarp
+    level: 10
+    sprite: magikarp.png
     caught_level: 3
-    caught_location: Route 22
+    caught_location: Route 3
 
+  - nickname: Tengu
+    species: Pidgey
+    level: 11
+    sprite: pidgey.png
+    caught_level: 3
+    caught_location: Route 1
+
+  - nickname: Sharpe
+    species: Spearow
+    level: 7
+    sprite: spearow.png
+    caught_level: 6
+    caught_location: Route 3
+
+  - nickname: Maxwell
+    species: Pikachu
+    level: 13
+    sprite: pikachu.png
+    caught_level: 5
+    caught_location: Viridian Forest
+
+box:
   - nickname: The Queen
     species: Beedrill
     level: 10
@@ -34,29 +56,6 @@ party:
     caught_level: 3
     caught_location: Viridian Forest
     caught_as: Weedle
-
-  - nickname: Steadfast
-    species: Butterfree
-    level: 10
-    sprite: butterfree.png
-    caught_level: 5
-    caught_location: Viridian Forest
-    caught_as: Metapod
-
-  - nickname: Maxwell
-    species: Pikachu
-    level: 11
-    sprite: pikachu.png
-    caught_level: 5
-    caught_location: Viridian Forest
-
-box:
-  - nickname: Tengu
-    species: Pidgey
-    level: 8
-    sprite: pidgey.png
-    caught_level: 3
-    caught_location: Route 1
 
   - nickname: John Acorn
     species: Caterpie
@@ -67,14 +66,36 @@ box:
 
   - nickname: Aurora
     species: Jigglypuff
-    level: 5
+    level: 10
     sprite: jigglypuff.png
     caught_level: 5
     caught_location: Route 3
 
-  - nickname: Sharpe
-    species: Spearow
+  - nickname: Steadfast
+    species: Butterfree
+    level: 10
+    sprite: butterfree.png
+    caught_level: 5
+    caught_location: Viridian Forest
+    caught_as: Metapod
+
+  - nickname: Naledi
+    species: Mankey
+    level: 10
+    sprite: mankey.png
+    caught_level: 3
+    caught_location: Route 22
+
+  - nickname: Baelor
+    species: Nidoran (male)
+    level: 10
+    sprite: nidoran-m.png
+    caught_level: 6
+    caught_location: Route 3
+
+  - nickname: Ishka
+    species: Nidoran (female)
     level: 6
-    sprite: spearow.png
+    sprite: nidoran-f.png
     caught_level: 6
     caught_location: Route 3
