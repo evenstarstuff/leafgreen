@@ -1,19 +1,28 @@
-{% extends "base.html" %}
+    {% extends "base.html" %}
 
-{% block title %}Postcards | Everything Stays{% endblock %}
+    {% block title %}Postcards | Everything Stays{% endblock %}
 
-{% block content %}
-<section>
-  <h2>Postcards</h2>
-  <ul class="postcards-list">
-    {% for card in postcards %}
-    <li class="postcard {% if not card.note %}no-note{% endif %}">
-      <div class="place">{{ card.location }}</div>
-      <div class="message">
-        {% if card.note %}{{ card.note }}{% else %}...{% endif %}
+    {% block content %}
+    <section>
+      <h2>Postcards</h2>
+      <div class="postcard-grid">
+        {% for card in postcards %}
+        <div class="postcard {% if not card.note or card.note == 'placeholder' %}no-note{% endif %}">
+          <div class="postcard-photo">
+            {% if card.image %}
+            <img src="{{ calc_url('locations/' + card.image) }}" alt="{{ card.location }}">
+            {% else %}
+            <div class="postcard-photo-placeholder"></div>
+            {% endif %}
+          </div>
+          <div class="postcard-body">
+            <p class="postcard-location">{{ card.location }}</p>
+            {% if card.note and card.note != 'placeholder' %}
+            <p class="postcard-note">{{ card.note }}</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
       </div>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endblock %}
+    </section>
+    {% endblock %}We 

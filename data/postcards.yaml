@@ -1,11 +1,23 @@
-- location: Pallet Town
-  note: "Two houses and a science lab. Seems legit."
+    - location: Pallet Town
+      image: null
+      note: "Two houses and a science lab. Seems legit."
 
-- location: Viridian City
-  note: "Bought some balls and moved on, after singing a song about it."
+    - location: Viridian City
+      image: null
+      note: Bought some balls and moved on, after singing a song about it.
 
-- location: Viridian Forest
-  note: "A maze full of Weedle energy."
+    - location: Viridian Forest
+      image: null
+      note: A maze full of Weedle energy and uncomfortable eye contact.
 
-- location: Pewter City
-  note: "Contains a science museum that's currently running a space exhibit! ... Space Shuttle not to scale."
+    - location: Pewter City
+      image: null
+      note: "Contains a science museum that's currently running a space exhibit! ... Space Shuttle not to scale"
+
+    - location: Mt. Moon
+      image: null
+      note: "Cannot escape! Cannot escape! Oh, wait, a Clefairy. Actually, I like it here after all."
+
+    - location: Cerulean City
+      image: null
+      note: "Haven't checked the place out much yet, but some dude really wants to be rid of his Jinx."
