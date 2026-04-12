@@ -8,7 +8,7 @@
   <ul class="status">
     <li><span class="label">Location</span> {{ trainer.location }}</li>
     <li><span class="label">Badges</span> {{ trainer.badges }}</li>
-    <li><span class="label">Pokédex</span> 13 caught</li>
+    <li><span class="label">Pokédex</span> 18 caught</li>
   </ul>
 </section>
 
@@ -30,7 +30,7 @@
           in {{ pokemon.caught_location }}
         </span>
       {% else %}
-        <span class="origin">starter</span>
+        <span class="origin">starter{% if pokemon.started_as %} — began as {{ pokemon.started_as }}{% endif %}</span>
       {% endif %}
     </li>
     {% endfor %}

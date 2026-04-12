@@ -1,13 +1,14 @@
 name: Jennie
-location: Route 3
+location: Cerulean City
 badges: 1
-pokedex: 19
-caught: 13
+pokedex: 22
+caught: 18
 
 party:
   - nickname: Ryland
     species: Ivysaur
-    level: 16
+    started_as: Bulbasaur
+    level: 19
     sprite: ivysaur.png
     caught_level: null
     caught_location: null
@@ -15,35 +16,35 @@ party:
 
   - nickname: Ratatoskr
     species: Rattata
-    level: 10
+    level: 13
     sprite: rattata.png
     caught_level: 4
     caught_location: Route 1
 
-  - nickname: Kaiju
-    species: Magikarp
-    level: 10
-    sprite: magikarp.png
-    caught_level: 3
+  - nickname: Aurora
+    species: Jigglypuff
+    level: 11
+    sprite: jigglypuff.png
+    caught_level: 5
     caught_location: Route 3
 
-  - nickname: Tengu
-    species: Pidgey
-    level: 11
-    sprite: pidgey.png
-    caught_level: 3
-    caught_location: Route 1
+  - nickname: Ishka
+    species: Nidoran (female)
+    level: 14
+    sprite: nidoran-f.png
+    caught_level: 6
+    caught_location: Route 3
 
   - nickname: Sharpe
     species: Spearow
-    level: 7
+    level: 14
     sprite: spearow.png
     caught_level: 6
     caught_location: Route 3
 
   - nickname: Maxwell
     species: Pikachu
-    level: 13
+    level: 16
     sprite: pikachu.png
     caught_level: 5
     caught_location: Viridian Forest
@@ -66,11 +67,11 @@ boxes:
         caught_level: 3
         caught_location: Viridian Forest
 
-      - nickname: Aurora
-        species: Jigglypuff
+      - nickname: Kaiju
+        species: Magikarp
         level: 10
-        sprite: jigglypuff.png
-        caught_level: 5
+        sprite: magikarp.png
+        caught_level: 3
         caught_location: Route 3
 
       - nickname: Steadfast
@@ -95,12 +96,12 @@ boxes:
         caught_level: 6
         caught_location: Route 3
 
-      - nickname: Ishka
-        species: Nidoran (female)
-        level: 6
-        sprite: nidoran-f.png
-        caught_level: 6
-        caught_location: Route 3
+      - nickname: Tengu
+        species: Pidgey
+        level: 11
+        sprite: pidgey.png
+        caught_level: 3
+        caught_location: Route 1
 
       - nickname: Adrian
         species: Geodude
