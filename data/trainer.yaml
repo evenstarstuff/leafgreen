@@ -105,35 +105,35 @@ boxes:
       - nickname: Adrian
         species: Geodude
         level: 8
-        sprite:
+        sprite: geodude.png
         caught_level: 8
         caught_location: Mt. Moon
 
       - nickname: Freecrab
         species: Paras
         level: 8
-        sprite:
+        sprite: paras.png
         caught_level: 8
         caught_location: Mt. Moon
 
       - nickname: Echo
         species: Zubat
         level: 8
-        sprite:
+        sprite: zubat.png
         caught_level: 8
         caught_location: Mt. Moon
 
       - nickname: Artemis
         species: Clefairy
         level: 10
-        sprite:
+        sprite: clefairy.png
         caught_level: 8
         caught_location: Mt. Moon
 
       - nickname: Trunks
         species: Sandshrew
         level: 8
-        sprite:
+        sprite: sandshrew.png
         caught_level: 8
         caught_location: Route 4
 
@@ -142,13 +142,13 @@ boxes:
       - nickname: Krillin
         species: Sandshrew
         level: 6
-        sprite:
+        sprite: sandshrew.png
         caught_level: 6
         caught_location: Route 4
 
       - nickname: Bertie
         species: Nidoran (male)
         level: 6
-        sprite:
+        sprite: nidoran-m.png
         caught_level: 6
         caught_location: Route 3
