@@ -99,3 +99,52 @@ box:
     sprite: nidoran-f.png
     caught_level: 6
     caught_location: Route 3
+
+  - nickname: Adrian
+    species: Geodude
+    level: 8
+    sprite: 
+    caught_level: 8
+    caught_location: Mt. Moon
+
+  - nickname: Bertie
+    species: Nidoran (male)
+    level: 6
+    sprite: 
+    caught_level: 6
+    caught_location: Route 3
+
+  - nickname: Freecrab
+    species: Paras
+    level: 8
+    sprite: 
+    caught_level: 8
+    caught_location: Mt. Moon
+
+  - nickname: Echo
+    species: Zubat
+    level: 8
+    sprite: 
+    caught_level: 8
+    caught_location: Mt. Moon
+
+  - nickname: Artemis
+    species: Clefairy
+    level: 10
+    sprite: 
+    caught_level: 8
+    caught_location: Mt. Moon
+
+  - nickname: Krillin
+    species: Sandshrew
+    level: 6
+    sprite: 
+    caught_level: 6
+    caught_location: Route 4
+
+  - nickname: Trunks
+    species: Sandshrew
+    level: 8
+    sprite: 
+    caught_level: 8
+    caught_location: Route 4
