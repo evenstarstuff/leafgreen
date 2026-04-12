@@ -48,103 +48,107 @@ party:
     caught_level: 5
     caught_location: Viridian Forest
 
-box:
-  - nickname: The Queen
-    species: Beedrill
-    level: 10
-    sprite: beedrill.png
-    caught_level: 3
-    caught_location: Viridian Forest
-    caught_as: Weedle
+boxes:
+  - box_number: 1
+    pokemon:
+      - nickname: The Queen
+        species: Beedrill
+        level: 10
+        sprite: beedrill.png
+        caught_level: 3
+        caught_location: Viridian Forest
+        caught_as: Weedle
 
-  - nickname: John Acorn
-    species: Caterpie
-    level: 3
-    sprite: caterpie.png
-    caught_level: 3
-    caught_location: Viridian Forest
+      - nickname: John Acorn
+        species: Caterpie
+        level: 3
+        sprite: caterpie.png
+        caught_level: 3
+        caught_location: Viridian Forest
 
-  - nickname: Aurora
-    species: Jigglypuff
-    level: 10
-    sprite: jigglypuff.png
-    caught_level: 5
-    caught_location: Route 3
+      - nickname: Aurora
+        species: Jigglypuff
+        level: 10
+        sprite: jigglypuff.png
+        caught_level: 5
+        caught_location: Route 3
 
-  - nickname: Steadfast
-    species: Butterfree
-    level: 10
-    sprite: butterfree.png
-    caught_level: 5
-    caught_location: Viridian Forest
-    caught_as: Metapod
+      - nickname: Steadfast
+        species: Butterfree
+        level: 10
+        sprite: butterfree.png
+        caught_level: 5
+        caught_location: Viridian Forest
+        caught_as: Metapod
 
-  - nickname: Naledi
-    species: Mankey
-    level: 10
-    sprite: mankey.png
-    caught_level: 3
-    caught_location: Route 22
+      - nickname: Naledi
+        species: Mankey
+        level: 10
+        sprite: mankey.png
+        caught_level: 3
+        caught_location: Route 22
 
-  - nickname: Baelor
-    species: Nidoran (male)
-    level: 10
-    sprite: nidoran-m.png
-    caught_level: 6
-    caught_location: Route 3
+      - nickname: Baelor
+        species: Nidoran (male)
+        level: 10
+        sprite: nidoran-m.png
+        caught_level: 6
+        caught_location: Route 3
 
-  - nickname: Ishka
-    species: Nidoran (female)
-    level: 6
-    sprite: nidoran-f.png
-    caught_level: 6
-    caught_location: Route 3
+      - nickname: Ishka
+        species: Nidoran (female)
+        level: 6
+        sprite: nidoran-f.png
+        caught_level: 6
+        caught_location: Route 3
 
-  - nickname: Adrian
-    species: Geodude
-    level: 8
-    sprite: 
-    caught_level: 8
-    caught_location: Mt. Moon
+      - nickname: Adrian
+        species: Geodude
+        level: 8
+        sprite:
+        caught_level: 8
+        caught_location: Mt. Moon
 
-  - nickname: Bertie
-    species: Nidoran (male)
-    level: 6
-    sprite: 
-    caught_level: 6
-    caught_location: Route 3
+      - nickname: Freecrab
+        species: Paras
+        level: 8
+        sprite:
+        caught_level: 8
+        caught_location: Mt. Moon
 
-  - nickname: Freecrab
-    species: Paras
-    level: 8
-    sprite: 
-    caught_level: 8
-    caught_location: Mt. Moon
+      - nickname: Echo
+        species: Zubat
+        level: 8
+        sprite:
+        caught_level: 8
+        caught_location: Mt. Moon
 
-  - nickname: Echo
-    species: Zubat
-    level: 8
-    sprite: 
-    caught_level: 8
-    caught_location: Mt. Moon
+      - nickname: Artemis
+        species: Clefairy
+        level: 10
+        sprite:
+        caught_level: 8
+        caught_location: Mt. Moon
 
-  - nickname: Artemis
-    species: Clefairy
-    level: 10
-    sprite: 
-    caught_level: 8
-    caught_location: Mt. Moon
+      - nickname: Trunks
+        species: Sandshrew
+        level: 8
+        sprite:
+        caught_level: 8
+        caught_location: Route 4
 
-  - nickname: Krillin
-    species: Sandshrew
-    level: 6
-    sprite: 
-    caught_level: 6
-    caught_location: Route 4
+  - box_number: 2
+    pokemon:
+      - nickname: Krillin
+        species: Sandshrew
+        level: 6
+        sprite:
+        caught_level: 6
+        caught_location: Route 4
 
-  - nickname: Trunks
-    species: Sandshrew
-    level: 8
-    sprite: 
-    caught_level: 8
-    caught_location: Route 4
+      - nickname: Bertie
+        species: Nidoran (male)
+        level: 6
+        sprite:
+        caught_level: 6
+        caught_location: Route 3

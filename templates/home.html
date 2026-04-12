@@ -37,11 +37,12 @@
   </ul>
 </section>
 
-{% if trainer.box %}
+{% if trainer.boxes %}
+{% for box in trainer.boxes %}
 <section class="box">
-  <h2>PC Box</h2>
+  <h2>PC Box {{ box.box_number }}</h2>
   <ul class="party-list">
-    {% for pokemon in trainer.box %}
+    {% for pokemon in box.pokemon %}
     <li class="party-member box-member">
       {% if pokemon.sprite %}
       <img src="{{ calc_url('sprites/' + pokemon.sprite) }}" alt="{{ pokemon.species }}" class="sprite">
@@ -62,5 +63,6 @@
     {% endfor %}
   </ul>
 </section>
+{% endfor %}
 {% endif %}
 {% endblock %}
