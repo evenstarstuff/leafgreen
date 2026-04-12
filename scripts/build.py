@@ -35,6 +35,13 @@ makedirs(OUTPUT_DIR / "sprites", exist_ok=True)
 for sprite in (ROOT_DIR / "sprites").glob("*.*"):
     shutil.copy(sprite, OUTPUT_DIR / "sprites" / sprite.name)
 
+## locations
+
+makedirs(OUTPUT_DIR / "locations", exist_ok=True)
+
+for location in (ROOT_DIR / "locations").glob("*.*"):
+    shutil.copy(location, OUTPUT_DIR / "locations" / location.name)
+
 ## home page
 
 ryland.render_template("home.html", "index.html", {
