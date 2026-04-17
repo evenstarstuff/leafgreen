@@ -3,6 +3,7 @@ location: Cerulean City
 badges: 1
 pokedex: 22
 caught: 18
+status: "Grinding levels on Route 4"
 
 party:
   - nickname: Ryland
@@ -14,27 +15,26 @@ party:
     caught_location: null
     origin: starter
 
-  - nickname: Ratatoskr
-    species: Rattata
-    level: 16
-    sprite: rattata.png
-    caught_level: 4
-    caught_location: Route 1
+  - nickname: Adrian
+    species: Geodude
+    level: 8
+    sprite: geodude.png
+    caught_level: 8
+    caught_location: Mt. Moon
 
   - nickname: Aurora
     species: Jigglypuff
-    level: 12
+    level: 16
     sprite: jigglypuff.png
     caught_level: 5
     caught_location: Route 3
 
-  - nickname: Ishka
-    species: Nidorina
-    level: 15
-    sprite: nidorina.png
-    caught_level: 6
-    caught_location: Route 3
-    caught_as: Nidoran ♀
+  - nickname: Artemis
+    species: Clefairy
+    level: 10
+    sprite: clefairy.png
+    caught_level: 8
+    caught_location: Mt. Moon
 
   - nickname: Sharpe
     species: Spearow
@@ -43,16 +43,24 @@ party:
     caught_level: 6
     caught_location: Route 3
 
-  - nickname: Maxwell
-    species: Pikachu
-    level: 16
-    sprite: pikachu.png
-    caught_level: 5
-    caught_location: Viridian Forest
+  - nickname: Echo
+    species: Zubat
+    level: 8
+    sprite: zubat.png
+    caught_level: 8
+    caught_location: Mt. Moon
 
 boxes:
   - box_number: 1
     pokemon:
+      - nickname: Ishka
+        species: Nidorina
+        level: 17
+        sprite: nidorina.png
+        caught_level: 6
+        caught_location: Route 3
+        caught_as: Nidoran ♀
+
       - nickname: The Queen
         species: Beedrill
         level: 10
@@ -104,12 +112,12 @@ boxes:
         caught_level: 3
         caught_location: Route 1
 
-      - nickname: Adrian
-        species: Geodude
-        level: 8
-        sprite: geodude.png
-        caught_level: 8
-        caught_location: Mt. Moon
+      - nickname: Ratatoskr
+        species: Rattata
+        level: 17
+        sprite: rattata.png
+        caught_level: 4
+        caught_location: Route 1
 
       - nickname: Freecrab
         species: Paras
@@ -118,19 +126,12 @@ boxes:
         caught_level: 8
         caught_location: Mt. Moon
 
-      - nickname: Echo
-        species: Zubat
-        level: 8
-        sprite: zubat.png
-        caught_level: 8
-        caught_location: Mt. Moon
-
-      - nickname: Artemis
-        species: Clefairy
-        level: 10
-        sprite: clefairy.png
-        caught_level: 8
-        caught_location: Mt. Moon
+      - nickname: Maxwell
+        species: Pikachu
+        level: 17
+        sprite: pikachu.png
+        caught_level: 5
+        caught_location: Viridian Forest
 
       - nickname: Trunks
         species: Sandshrew
