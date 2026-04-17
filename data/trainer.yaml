@@ -29,11 +29,12 @@ party:
     caught_location: Route 3
 
   - nickname: Ishka
-    species: Nidoran (female)
+    species: Nidorina
     level: 15
-    sprite: nidoran-f.png
+    sprite: nidorina.png
     caught_level: 6
     caught_location: Route 3
+    caught_as: Nidoran ♀
 
   - nickname: Sharpe
     species: Spearow
