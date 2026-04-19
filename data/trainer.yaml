@@ -9,7 +9,7 @@ party:
   - nickname: Ryland
     species: Ivysaur
     started_as: Bulbasaur
-    level: 19
+    level: 20
     sprite: ivysaur.png
     caught_level: null
     caught_location: null
@@ -17,7 +17,7 @@ party:
 
   - nickname: Adrian
     species: Geodude
-    level: 8
+    level: 17
     sprite: geodude.png
     caught_level: 8
     caught_location: Mt. Moon
@@ -45,7 +45,7 @@ party:
 
   - nickname: Echo
     species: Zubat
-    level: 8
+    level: 12
     sprite: zubat.png
     caught_level: 8
     caught_location: Mt. Moon
