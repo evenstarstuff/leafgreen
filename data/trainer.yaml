@@ -140,6 +140,13 @@ boxes:
         caught_level: 8
         caught_location: Route 4
 
+      - nickname: Dionaea
+        species: Bellsprout
+        level: 14
+        sprite: bellsprout.png
+        caught_level: 14
+        caught_location: Route 24
+
   - box_number: 2
     pokemon:
       - nickname: Krillin
