@@ -1,9 +1,9 @@
 name: Jennie
 location: Cerulean City
-badges: 1
-pokedex: 22
-caught: 18
-status: "Grinding levels on Route 4"
+badges: 2
+pokedex: 24
+caught: 19
+status: "Chilling at the Pokémon Center"
 
 party:
   - nickname: Ryland
