@@ -9,7 +9,7 @@ party:
   - nickname: Ryland
     species: Ivysaur
     started_as: Bulbasaur
-    level: 20
+    level: 22
     sprite: ivysaur.png
     caught_level: null
     caught_location: null
@@ -17,38 +17,38 @@ party:
 
   - nickname: Adrian
     species: Geodude
-    level: 17
+    level: 19
     sprite: geodude.png
     caught_level: 8
     caught_location: Mt. Moon
 
   - nickname: Aurora
     species: Jigglypuff
-    level: 16
+    level: 17
     sprite: jigglypuff.png
     caught_level: 5
     caught_location: Route 3
 
   - nickname: Artemis
     species: Clefairy
-    level: 10
+    level: 16
     sprite: clefairy.png
     caught_level: 8
     caught_location: Mt. Moon
 
-  - nickname: Sharpe
-    species: Spearow
-    level: 15
-    sprite: spearow.png
-    caught_level: 6
-    caught_location: Route 3
-
   - nickname: Echo
     species: Zubat
-    level: 12
+    level: 13
     sprite: zubat.png
     caught_level: 8
     caught_location: Mt. Moon
+
+  - nickname: Maxwell
+    species: Pikachu
+    level: 17
+    sprite: pikachu.png
+    caught_level: 5
+    caught_location: Viridian Forest
 
 boxes:
   - box_number: 1
@@ -126,12 +126,12 @@ boxes:
         caught_level: 8
         caught_location: Mt. Moon
 
-      - nickname: Maxwell
-        species: Pikachu
-        level: 17
-        sprite: pikachu.png
-        caught_level: 5
-        caught_location: Viridian Forest
+      - nickname: Sharpe
+        species: Spearow
+        level: 15
+        sprite: spearow.png
+        caught_level: 6
+        caught_location: Route 3
 
       - nickname: Trunks
         species: Sandshrew
