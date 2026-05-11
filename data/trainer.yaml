@@ -147,6 +147,13 @@ boxes:
         caught_level: 14
         caught_location: Route 24
 
+      - nickname: Tombo
+        species: Meowth
+        level: 10
+        sprite: meowth.png
+        caught_level: 10
+        caught_location: Route 6
+
   - box_number: 2
     pokemon:
       - nickname: Krillin
